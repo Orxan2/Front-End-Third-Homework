@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@100;300;400;500;600;700;800;900&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  -webkit-transition: all .7s;
+  transition: all .7s;
+  text-decoration: none;
+}
+
+i {
+  -webkit-transition: all .7s;
+  transition: all .7s;
+}
+
+body .container {
+  width: 500px;
+  margin: 50px auto;
+  background-color: #add8e614;
+  padding: 50px;
+}
+
+body .container h1 {
+  font-family: "Big Shoulders Stencil Display", cursive;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+body .container ul.social-networks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .container ul.social-networks li {
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+body .container ul.social-networks li a.circle {
+  width: 75px;
+  height: 75px;
+  border: 1px solid navy;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 5px;
+          box-shadow: 5px;
+  -webkit-box-shadow: 0 0 20px 0px navy;
+          box-shadow: 0 0 20px 0px navy;
+}
+
+body .container ul.social-networks li a.circle i {
+  font-size: 25px;
+  color: navy;
+}
+
+body .container ul.social-networks li a.circle:hover {
+  background-color: navy;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+body .container ul.social-networks li a.circle:hover i {
+  color: white;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+/*# sourceMappingURL=style.css.map */
